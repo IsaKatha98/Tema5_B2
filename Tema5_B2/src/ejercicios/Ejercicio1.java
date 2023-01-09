@@ -1,16 +1,17 @@
-package ejercicio1;
+package ejercicios;
 
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main {
+public class Ejercicio1 {
 
 	public static void main(String[] args) {
+	
 		
 		//Declaramos las variable.
 		int longitud;//Variable longitud del array.
 		int posiciones;
-		int [] numeros;
+		int [] numeros;//Noombre de la tabla.
 		
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
 		la consola. */
@@ -32,9 +33,5 @@ public class Main {
 		System.out.println(Arrays.toString(numeros));
 
 	}
-	
-	
-		
-	
 
 }
